@@ -1,0 +1,348 @@
+﻿* {
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+
+.naslov {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    color: wheat;
+    font-weight: bold;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 42px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    transition: 1s ease;
+}
+
+
+.naslov2 {
+    margin-top: 5px;
+    transition: 1s ease;
+}
+
+
+.naslov3 {
+    margin-top: 5px;
+    margin-right: 23px;
+    transition: 1s ease;
+}
+
+.naslov i {
+    padding-left: 4px;
+    padding-top: 10px;
+    color: wheat;
+}
+
+.naslov a {
+    color: wheat;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.naslov2 .naslov3 {
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+}
+
+
+a:hover {
+    color: aqua;
+    border: 1px;
+    transform: translateY(-10px);
+
+}
+
+.myVideo {
+    z-index: 2;
+    margin-top: 115px;
+    width: 100%;
+}
+
+
+
+
+.slike {
+    background-image: url('Slike/led.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+    border-bottom: 15px double black;
+
+}
+
+.slike div {
+    margin-left: 40px;
+    display: inline-block;
+    transition: 0.3s;
+
+}
+
+.slike div:hover {
+
+    animation-name: shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes shake {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+
+}
+
+section {
+    color: black;
+    background-color: wheat;
+    
+    width: 100%;
+
+
+
+}
+
+section h1 {
+    
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 50px;
+    display: block;
+
+}
+
+section p {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-family: 'Nerko One', cursive;
+
+
+}
+
+article {
+    background-color: wheat;
+    height: 600px;
+    padding-top: 50px;
+}
+
+article img {
+
+    margin-left: 120px;
+    filter: drop-shadow(36px 34px 10px #000000);
+    width: 400px;
+    height: 500px;
+    border-radius: 10%;
+    float: left;
+}
+
+article p {
+
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 70px;
+    float: right;
+    padding-right: 200px;
+    padding-top: 120px;
+    animation-name: ime;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: center;
+
+
+
+}
+
+@keyframes ime {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-90px) translateY(30px);
+        color: wheat;
+    }
+
+}
+
+form {
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+
+
+}
+
+.kontakt {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+.kontakt form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type=text] {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Nerko One', cursive;
+    margin-top: 20px;
+    background-color: black;
+    color: wheat;
+}
+
+input[type=email] {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Nerko One', cursive;
+    margin-top: 20px;
+    background-color: black;
+    color: wheat;
+}
+
+
+#drzava {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    padding: 3pxpx 10px;
+    font-family: 'Nerko One', cursive;
+    margin-top: 20px;
+    width: 245px;
+    background-color: black;
+    color: wheat;
+}
+
+
+#misljenje {
+    border-radius: 20px;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: 'Nerko One', cursive;
+    margin-top: 20px;
+    background-color: black;
+    color: wheat;
+
+
+}
+#tabela-proizvodi, #izaberi{
+
+    background-color: wheat;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 50px;
+
+}
+.kontakt{
+
+    background-color: wheat;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 20px;
+
+}
+
+input[type=submit] {
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    transition: 1s ease;
+    background-color: wheat;
+    color: black;
+}
+
+
+input[type=submit]:hover {
+    background-color: black;
+    color: wheat;
+    transform: translateY(-8px);
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+
+}
+
+footer a {
+
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 42px;
+    display: block;
+    text-align: center;
+    transition: 2s ease;
+}
+@media screen and (min-width:300px) and (max-width:420px){
+    .naslov{
+        height:120px;
+        width:100%;
+    }
+    
+    .myVideo{
+        width: 100%;
+    }
+    
+   article{
+    display: block;
+    height: 900px;
+
+   }
+    
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .slike{
+        background-size: cover;
+    }
+}

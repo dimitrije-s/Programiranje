@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+
+
+    <title>NOCCO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bd38dfcc22.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="Slike/bottle.png">
+</head>
+<body>
+    <div class="naslov">
+        <a href="#Proizvodi" class="naslov2"><i class="fa-solid fa-bars"></i> Proizvodi </a></li>
+        <h1 text-align="center"><a href="#" class="naslov1">Nocco</a></h1>
+        <a href="#Kontakt" class="naslov3"><i class="fa-solid fa-phone-flip"></i> Kontakt</a></li>
+    
+    </div>
+    <video autoplay muted loop class="myVideo">
+        <source src="video/nocco1.mp4" type="video/mp4">
+    </video>
+    
+    </div>
+    <a id="Proizvodi">
+        <div class="slike">
+    
+            <div class="slika1">
+                <img src="Slike/noco1.png" width="250px" height="280px">
+            </div>
+            <div class="slika2">
+                <img src="Slike/noco2.png" width="250px" height="280px">
+            </div>
+            <div class="slika3">
+                <img src="Slike/noco3.png" width="250px" height="280px">
+            </div>
+            <div class="slika4">
+                <img src="Slike/noco4.png" width="250px" height="280px">
+            </div>
+            <div class="slika5">
+                <img src="Slike/noco5.png" width="250px" height="280px">
+            </div>
+    
+    
+        </div>
+    </a>
+    <section>
+        <h1><u>O nama</u></h1>
+        <p><b>NOCCO</b> je ukusan funkcionalni napitak koji je razvila švedska kompanija za zdravlje i tjelesnu aktivnost.
+            Kompanija No Carbs lansirala je svoje prve proizvode u septembru 2014. i danas je dostupna na više od 30
+            tržišta.
+            Svi NOCCO proizvodi su bez šećera, obogaćeni vitaminima i BCAA (aminokiselinama razgranatog lanca).
+            Ovaj napitak je blago gaziran i veoma efikasan, a idealan je za svakodnevnu upotrebu, naročito kao izvor
+            energije pre ili u toku treninga!
+            Zahvaljujući optimalnoj proporciji BCAA (4: 1: 1), antikatabolička svojstva NOCCO napitka će smanjiti mogućnost
+            razgradnje mišića posle vežbanja
+            i pospešiće sintezu proteina.</p>
+    </section>
+    <article><img src="Slike/coa.jpg">
+        <p>Nocco ambasador<br> Aleksandar T.</p>
+    </article>
+    <div class="kontakt">
+    
+        <form id="recenzija">
+            <div>
+                <input type="text" id="ime" placeholder="Tvoje ime.."/>
+                <small class="error-small"></small>
+            </div>
+
+
+            <div>
+                <input type="text" id="prezime" placeholder="Tvoje prezime.."/>
+                <small class="error-small"></small>
+            </div>
+        
+            <div>
+                <input type="email" id="email" placeholder="Tvoj e-mail.."/>
+                <small class="error-small"></small>
+            </div>
+
+
+            <select id="drzava" name="drzava">
+                <option value="srbija">Srbija</option>
+                <option value="republika srpska">Republika Srpska</option>
+            </select>
+    
+            <textarea id="misljenje" name="misljenje" placeholder="Kako vam se svidjaju NOCCO ukusi..."></textarea>
+            <input type="submit" value="Posalji">
+        </form>
+    </div>
+    <p id="izaberi">Pogodi ime ukusa i njegovu cijenu a mi cemo da izracunamo koliko vasa imaginarna kosarica vrijedi</p>
+    <div class="kontakt">
+    
+        <form id="proizvodi">
+            <div>
+                <input type="text" id="naziv-proizvoda" placeholder="Naziv proizvoda..."/>
+                <small class="error-small"></small>
+            </div>
+
+
+            <div>
+                <input type="text" id="cijena" placeholder="Cijena proizvoda..."/>
+                <small class="error-small"></small>
+            </div>
+            <input type="submit" value="Kreiraj">
+        </form>
+    </div>
+    
+    <div class="kontakt">
+        <table id="tabela-proizvodi" >
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+            </tr>
+        </table>
+        <p id="ukupna-cijena"></p>
+        <p>Ukupna cijena</p>
+        
+    </div>
+
+
+    <footer><a id="Kontakt"><a href="tel:0038166973616">Pozovi</a> <a href="mailto:dimitrije2002s@gmail.com">Posalji e-mail</a></a>
+    
+    
+    </footer> 
+    <script src="recenzija.js"></script>
+    <script src="proizvodi.js"></script>
+</body>
+</html>
