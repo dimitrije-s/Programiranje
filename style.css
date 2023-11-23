@@ -331,11 +331,13 @@ footer a {
         
     }
     a.naslov1{
-        font-size: 28px;}
+        font-size: 28px;
+    display:block;}
     a.naslov2.{
-            font-size: 33px;}
+            font-size: 30px;}
     a.naslov3{
-                font-size: 33px;}
+                font-size: 30px;
+    margin-right: 5px;}
    
     
     .myVideo{
