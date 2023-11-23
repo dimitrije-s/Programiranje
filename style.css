@@ -340,6 +340,8 @@ footer a {
     height: 900px;
 
    }
+    article p{
+        display: none;
     form {
     background-color: wheat;
     display: flex;
