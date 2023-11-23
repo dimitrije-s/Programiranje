@@ -367,4 +367,21 @@ footer a {
     .slike{
         background-size: cover;
     }
+       article{
+    display: block;
+    height: 900px;
+
+   }
+    article p{
+        display: none;}
+        
+    article img{
+            width:100%;
+             margin-left: 1px;
+        }
+    form {
+    background-color: wheat;
+    display: flex;
+    
+}
 }
