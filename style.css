@@ -351,6 +351,7 @@ footer a {
         display: none;
         article img{
             width:100%;
+             margin-left: 0px;
         }
     form {
     background-color: wheat;
