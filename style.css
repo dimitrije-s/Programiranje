@@ -328,9 +328,14 @@ footer a {
     .naslov{
         height:120px;
         width:100%;
-        font-size: 33px;
+        
     }
-    
+    a.naslov1{
+        font-size: 33px;}
+    a.naslov2.{
+            font-size: 33px;}
+    a.naslov3{
+                font-size: 33px;}
    
     
     .myVideo{
