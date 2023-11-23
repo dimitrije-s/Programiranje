@@ -331,7 +331,7 @@ footer a {
         
     }
     a.naslov1{
-        font-size: 33px;}
+        font-size: 28px;}
     a.naslov2.{
             font-size: 33px;}
     a.naslov3{
@@ -349,6 +349,9 @@ footer a {
    }
     article p{
         display: none;
+        article img{
+            width:100%;
+        }
     form {
     background-color: wheat;
     display: flex;
