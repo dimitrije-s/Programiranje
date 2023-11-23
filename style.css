@@ -339,6 +339,9 @@ footer a {
     height: 900px;
 
    }
+    form {
+    background-color: wheat;
+    display: flex;
     
 }
 @media screen and (min-width:768px) and (max-width:1024px){
