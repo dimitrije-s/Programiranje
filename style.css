@@ -348,10 +348,11 @@ footer a {
 
    }
     article p{
-        display: none;
-        article img{
+        display: none;}
+        
+    article img{
             width:100%;
-             margin-left: 0px;
+             margin-left: 1px;
         }
     form {
     background-color: wheat;
